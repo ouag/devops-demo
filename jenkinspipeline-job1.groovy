@@ -6,9 +6,11 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
+                script {
                 log.info("hello info")
                 log.warn("hello warn")
                 log.error("hello error")
+                }
             }
         }
     }
