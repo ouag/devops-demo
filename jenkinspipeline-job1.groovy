@@ -1,6 +1,6 @@
 @Library('folder_shared_lib') _
 
-Log2 log2 = new Log2()
+
 
 pipeline {
     agent any
@@ -11,9 +11,9 @@ pipeline {
 
                 script {
 
-                    log2.info("hello info")
-                    log2.warn("hello warn")
-                    log2.error("hello error")
+                    Log2.info("hello info")
+                    Log2.warn("hello warn")
+                    Log2.error("hello error")
 
                 }
             }
