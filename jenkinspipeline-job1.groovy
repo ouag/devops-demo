@@ -11,9 +11,9 @@ pipeline {
 
                 script {
 
-                    Log2.info("hello info")
-                    Log2.warn("hello warn")
-                    Log2.error("hello error")
+                    Log.info("hello info")
+                    Log.warn("hello warn")
+                    Log.error("hello error")
 
                 }
             }
